@@ -45,4 +45,4 @@ for _, linha in excel_data.iterrows():
     time.sleep(3)
 
 resultado = navegador.find_element(By.XPATH, "/html/body/app-root/div[2]/app-rpa1/div/div[2]/div[2]").text 
-print(resultado)    
+print(resultado)  
